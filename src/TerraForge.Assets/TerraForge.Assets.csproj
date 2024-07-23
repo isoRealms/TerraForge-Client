@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TerraForge.IO\TerraForge.IO.csproj" />
+    <ProjectReference Include="..\TerraForge.Utility\TerraForge.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="System.Text.Json" Version="8.0.4" />
+  </ItemGroup>
+
+</Project>

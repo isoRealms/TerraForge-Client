@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TerraForge.Utility\TerraForge.Utility.csproj" />
+    <ProjectReference Include="..\TerraForge.Assets\TerraForge.Assets.csproj" />
+    <ProjectReference Include="..\..\external\FNA\FNA.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="System.Text.Json" Version="8.0.4" />
+  </ItemGroup>
+
+</Project>
